@@ -28,8 +28,8 @@
 
 ## 源码下载
 
-- [https://github.com/fuzhengwei/itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design)
-- [https://gitee.com/itstack/itstack-demo-design](https://gitee.com/itstack/itstack-demo-design)
+- [https://github.com/nateshao/nateshao-design-demo](https://github.com/nateshao/nateshao-design-demo)
+- [https://gitee.com/nateshao/nateshao-design-demo](https://gitee.com/nateshao/nateshao-design-demo)
 
 **Hello, world of design！** 你好，设计模式的世界！
 
