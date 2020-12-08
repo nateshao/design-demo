@@ -7,7 +7,7 @@ package com.nateshao.design.demo.coupon;
  * @博客 https://nateshao.gitee.io
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
- * Description:
+ * Description: 优惠卷结果
  */
 public class CouponResult {
 
