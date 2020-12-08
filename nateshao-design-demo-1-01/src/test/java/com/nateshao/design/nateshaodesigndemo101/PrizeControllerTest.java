@@ -9,7 +9,7 @@ import static org.junit.Assert.*;
  * @博客 https://nateshao.gitee.io
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
- * Description:
+ * Description: 单元测试类
  */
 public class PrizeControllerTest {
 
