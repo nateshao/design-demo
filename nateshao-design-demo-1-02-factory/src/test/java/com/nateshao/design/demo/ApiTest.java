@@ -1,7 +1,7 @@
 package com.nateshao.design.demo;
 
 import com.nateshao.design.demo.store.ICommodity;
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -42,4 +42,5 @@ public class ApiTest {
         commodityService_3.sendCommodity("10001","AQY1xjkUodl8LO975GdfrYUio",null,null);
 
     }
+
 }
