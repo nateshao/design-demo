@@ -1,22 +1,19 @@
-package com.nateshao.design.demo.coupon;
+package com.nateshao.design.nateshaodesigndemo101;
 
 /**
- * @date Created by 邵桐杰 on 2020/12/8 16:54
+ * @date Created by 邵桐杰 on 2020/12/8 17:34
  * @微信公众号 千羽的编程时光
  * @个人网站 www.nateshao.cn
  * @博客 https://nateshao.gitee.io
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
- * Description: 优惠卷结果
+ * Description:
  */
-public class CouponResult {
-
+public class AwardRes {
     private String code; // 编码
     private String info; // 描述
 
-    public CouponResult(String code, String info) {
-        this.code = code;
-        this.info = info;
+    public AwardRes() {
     }
 
     public String getCode() {
@@ -35,7 +32,8 @@ public class CouponResult {
         this.info = info;
     }
 
-    public CouponResult(String code) {
+    public AwardRes(String code, String info) {
         this.code = code;
+        this.info = info;
     }
 }

@@ -14,4 +14,5 @@ public class CouponService {
         System.out.println("模拟发放优惠券一张：" + uId + "," + couponNumber + "," + uuid);
         return new CouponResult("0000", "发放成功");
     }
+
 }
