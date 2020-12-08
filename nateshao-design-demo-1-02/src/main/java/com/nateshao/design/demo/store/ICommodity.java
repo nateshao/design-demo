@@ -9,7 +9,7 @@ import java.util.Map;
  * @博客 https://nateshao.gitee.io
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
- * Description:
+ * Description: 定义发奖接⼝
  */
 public interface ICommodity {
 
