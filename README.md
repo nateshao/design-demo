@@ -1,8 +1,7 @@
 #  Java 设计模式
 
-> **作者：** 千羽，Java Developer，[:pencil2: 千羽的编程时光 · 科技栈，作者](https://nateshao.gitee.io)
+> **作者：** 邵桐杰，Java Developer，[:pencil2: 千羽的编程时光 · 科技栈，作者](https://nateshao.gitee.io)
 
-> 本代码库是作者小傅哥多年从事一线互联网```Java```开发的学习历程技术汇总，旨在为大家提供一个清晰详细的学习教程，侧重点更倾向编写Java核心内容。如果本仓库能为您提供帮助，请给予支持(关注、点赞、分享)！
 
 <br/>
 
