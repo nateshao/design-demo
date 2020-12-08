@@ -1,5 +1,7 @@
 package com.nateshao.design.demo.store;
 
+import java.util.Map;
+
 /**
  * @date Created by 邵桐杰 on 2020/12/8 19:24
  * @微信公众号 千羽的编程时光
@@ -10,4 +12,7 @@ package com.nateshao.design.demo.store;
  * Description:
  */
 public interface ICommodity {
+
+    void sendCommodity(String uId, String commodityId, String bizId, Map<String, String> extMap) throws Exception;
+
 }
