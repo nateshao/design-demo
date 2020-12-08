@@ -14,7 +14,9 @@ import java.util.concurrent.TimeUnit;
  * @博客 https://nateshao.gitee.io
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
- * Description:
+ * Description: 模拟集群 EGM
+ *              模拟⼀个集群服务，但是⽅法名与各业务系统中使⽤的⽅法名不同。
+ *              有点像你mac，我⽤win。做⼀样的事，但有不同的操作。
  */
 public class EGM {
     private Logger logger = LoggerFactory.getLogger(EGM.class);

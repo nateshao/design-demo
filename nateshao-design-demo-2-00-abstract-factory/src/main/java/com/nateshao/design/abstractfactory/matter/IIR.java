@@ -14,7 +14,7 @@ import java.util.concurrent.TimeUnit;
  * @博客 https://nateshao.gitee.io
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
- * Description:
+ * Description: 模拟集群 IIR
  */
 public class IIR {
     private Logger logger = LoggerFactory.getLogger(IIR.class);
