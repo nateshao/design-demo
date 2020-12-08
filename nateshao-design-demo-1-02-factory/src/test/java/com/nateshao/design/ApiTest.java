@@ -1,13 +1,12 @@
-package com.nateshao.design.demo;
+package com.nateshao.design;
 
-import com.nateshao.design.demo.store.ICommodity;
-import org.junit.Test;
-
+import com.nateshao.design.store.ICommodity;
+import org.junit.jupiter.api.Test;
 import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @date Created by 邵桐杰 on 2020/12/8 19:53
+ * @date Created by 邵桐杰 on 2020/12/8 22:54
  * @微信公众号 千羽的编程时光
  * @个人网站 www.nateshao.cn
  * @博客 https://nateshao.gitee.io
@@ -42,5 +41,4 @@ public class ApiTest {
         commodityService_3.sendCommodity("10001","AQY1xjkUodl8LO975GdfrYUio",null,null);
 
     }
-
 }

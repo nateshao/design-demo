@@ -1,13 +1,13 @@
-package com.nateshao.design.demo;
+package com.nateshao.design;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class NateshaoDesignDemo102ApplicationTests {
+class NateshaoDesignApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+    @Test
+    void contextLoads() {
+    }
 
 }
