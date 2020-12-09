@@ -10,4 +10,5 @@ package com.nateshao.design.abstractfactory.impl;
  * Description:
  */
 public class EGMCacheAdapter {
+
 }

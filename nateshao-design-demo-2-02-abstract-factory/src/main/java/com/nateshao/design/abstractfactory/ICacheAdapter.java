@@ -12,7 +12,8 @@ import java.util.concurrent.TimeUnit;
  * Description: 这个类的主要作⽤用是让所有集群的提供⽅方，能在统⼀一的⽅方法名称下进⾏行行操作。
  * 也⽅方⾯面后续的拓拓展。
  */
-public class ICacheAdapter {
+public interface ICacheAdapter {
+
     String get(String key);
 
     void set(String key, String value);
@@ -20,4 +21,5 @@ public class ICacheAdapter {
     void set(String key, String value, long timeout, TimeUnit timeUnit);
 
     void del(String key);
+
 }
