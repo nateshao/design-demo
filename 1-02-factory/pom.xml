@@ -17,6 +17,12 @@
             <version>1.2.60</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>com.nateshao.design</groupId>
+            <artifactId>1-00-factory</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
 
