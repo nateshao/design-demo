@@ -10,6 +10,7 @@ import org.slf4j.LoggerFactory;
 import java.util.Map;
 
 /**
+ * @author 邵桐杰
  * @date Created by 邵桐杰 on 2020/12/8 22:47
  * @微信公众号 千羽的编程时光
  * @个人网站 www.nateshao.cn
@@ -41,7 +42,9 @@ public class GoodsCommodityService implements ICommodity {
         logger.info("请求参数[优惠券] => uId：{} commodityId：{} bizId：{} extMap：{}", uId, commodityId, bizId, JSON.toJSON(extMap));
         logger.info("测试结果[优惠券]：{}", isSuccess);
 
-        if (!isSuccess) throw new RuntimeException("实物商品发放失败");
+        if (!isSuccess) {
+            throw new RuntimeException("实物商品发放失败");
+        }
     }
 
     private String queryUserName(String uId) {
