@@ -1,5 +1,8 @@
 package com.nateshao.design.abstractfactory;
 
+import java.lang.reflect.InvocationHandler;
+import java.lang.reflect.Proxy;
+
 /**
  * @date Created by 邵桐杰 on 2020/12/9 9:00
  * @微信公众号 千羽的编程时光
@@ -10,4 +13,10 @@ package com.nateshao.design.abstractfactory;
  * Description:
  */
 public class JDKProxy {
+    public static <T> T getProxy(Class<T> interfaceClass, ICacheAdapter cacheAdapter) throws Exception {
+        InvocationHandler handler = new JDKInvocationHandler(cacheAdapter);
+        ClassLoader classLoader = Thread.currentThread().getContextClassLoader();
+        Class<?>[] classes = interfaceClass.getInterfaces();
+        return (T) Proxy.newProxyInstance(classLoader, new Class[]{classes[0]}, handler);
+    }
 }
