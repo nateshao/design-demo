@@ -1,5 +1,10 @@
 package com.nateshao.design.abstractfactory.impl;
 
+import com.nateshao.design.abstractfactory.ICacheAdapter;
+import com.nateshao.design.abstractfactory.matter.IIR;
+
+import java.util.concurrent.TimeUnit;
+
 /**
  * @date Created by 邵桐杰 on 2020/12/9 8:59
  * @微信公众号 千羽的编程时光
@@ -9,5 +14,24 @@ package com.nateshao.design.abstractfactory.impl;
  * @Gitee https://gitee.com/nateshao
  * Description:
  */
-public class IIRCacheAdapter {
+public class IIRCacheAdapter implements ICacheAdapter {
+
+    private IIR iir = new IIR();
+
+    public String get(String key) {
+        return iir.get(key);
+    }
+
+    public void set(String key, String value) {
+        iir.set(key, value);
+    }
+
+    public void set(String key, String value, long timeout, TimeUnit timeUnit) {
+        iir.setExpire(key, value, timeout, timeUnit);
+    }
+
+    public void del(String key) {
+        iir.del(key);
+    }
+
 }
