@@ -2,6 +2,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>nateshao-design-demo-3-00-builder</module>
+        <module>1-00-factory</module>
+        <module>1-01-factory</module>
+        <module>1-02-factory</module>
+        <module>2-00-abstract-factory</module>
+        <module>2-01-abstract-factory</module>
+        <module>2-02-abstract-factory</module>
+        <module>3-00-builder</module>
+        <module>3-01-builder</module>
+        <module>3-02-builder</module>
+    </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
