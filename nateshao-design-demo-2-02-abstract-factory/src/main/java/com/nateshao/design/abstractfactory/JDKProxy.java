@@ -10,7 +10,7 @@ import java.lang.reflect.Proxy;
  * @博客 https://nateshao.gitee.io
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
- * Description:
+ * Description: 这⾥里里主要的作⽤用就是完成代理理类，同时对于使⽤用哪个集群有外部通过⼊入参进⾏行行传递。
  */
 public class JDKProxy {
     public static <T> T getProxy(Class<T> interfaceClass, ICacheAdapter cacheAdapter) throws Exception {
