@@ -7,7 +7,8 @@ package com.nateshao.design.abstractfactory;
  * @博客 https://nateshao.gitee.io
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
- * Description:
+ * Description: 这个类的主要作⽤用是让所有集群的提供⽅方，能在统⼀一的⽅方法名称下进⾏行行操作。
+ *              也⽅方⾯面后续的拓拓展。
  */
 public class ICacheAdapter {
 }

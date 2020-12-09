@@ -10,4 +10,5 @@ package com.nateshao.design.abstractfactory;
  * Description:
  */
 public class CacheService {
+
 }
