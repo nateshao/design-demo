@@ -11,9 +11,9 @@ import java.util.concurrent.ConcurrentHashMap;
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
  * Description: 7种单例模式实现
- *              -----0. 静态类使⽤
+ *              -----0. 静态类使⽤ Lazy man
  */
-public class Singleton_00 {
+public class Singleton_00_static {
 
     public static Map<String,String> cache = new ConcurrentHashMap<String, String>();
 
