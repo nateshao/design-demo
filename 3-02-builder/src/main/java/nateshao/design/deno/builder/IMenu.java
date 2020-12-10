@@ -9,5 +9,6 @@ package nateshao.design.deno.builder;
  * @Gitee https://gitee.com/nateshao
  * Description:
  */
-public class IMenu {
+public interface IMenu {
+
 }
