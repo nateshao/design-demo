@@ -15,7 +15,10 @@ import nateshao.design.demo.builder.title.MarcoPoloTile;
  * @博客 https://nateshao.gitee.io
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
- * Description:
+ * Description:  建造者⽅法
+ *              建造者的使⽤中就已经⾮常容易了，统⼀的建造⽅式，通过不同物料填充出不同的装修⻛格； 豪华
+ *              欧式 、 轻奢⽥园 、 现代简约 ，如果将来业务扩展也可以将这部分内容配置到数据库⾃动⽣成。但
+ *              整体的思想还可以使⽤创建者模式进⾏搭建
  */
 public class Builder {
     public IMenu levelOne(Double area) {
