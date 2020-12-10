@@ -16,6 +16,7 @@
         <module>4-00-prototype</module>
         <module>4-01-prototype</module>
         <module>4-02-prototype</module>
+        <module>5-00-singleton</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
