@@ -10,4 +10,20 @@ package nateshao.design.deno.singleton;
  * Description:
  */
 public class Singleton_05_double_lock_check {
+    private static Singleton_05_double_lock_check instance;
+
+    private Singleton_05_double_lock_check() {
+    }
+
+    public static Singleton_05_double_lock_check getInstance() {
+        if (null != instance) {
+            return instance;
+        }
+        synchronized (Singleton_05_double_lock_check.class) {
+            if (null == instance) {
+                instance = new Singleton_05_double_lock_check();
+            }
+        }
+        return instance;
+    }
 }
