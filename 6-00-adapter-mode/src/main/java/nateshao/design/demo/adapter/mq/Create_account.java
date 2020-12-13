@@ -11,6 +11,7 @@ import java.util.Date;
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
  * Description: 开户
+ *
  */
 public class Create_account {
     private String number;      // 开户编号
