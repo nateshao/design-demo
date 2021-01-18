@@ -25,6 +25,87 @@
 - [https://github.com/nateshao/nateshao-design-demo](https://github.com/nateshao/nateshao-design-demo)
 - [https://gitee.com/nateshao/nateshao-design-demo](https://gitee.com/nateshao/nateshao-design-demo)
 
+## pom.xml
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <packaging>pom</packaging>
+    <modules>
+        <module>1-00-factory</module>
+        <module>1-01-factory</module>
+        <module>1-02-factory</module>
+        <module>2-00-abstract-factory</module>
+        <module>2-01-abstract-factory</module>
+        <module>2-02-abstract-factory</module>
+        <module>3-00-builder</module>
+        <module>3-01-builder</module>
+        <module>3-02-builder</module>
+        <module>4-00-prototype</module>
+        <module>4-01-prototype</module>
+        <module>4-02-prototype</module>
+        <module>5-00-singleton</module>
+        <module>6-00-adapter-mode</module>
+        <module>6-01-adapter-mode</module>
+        <module>6-02-adapter-mode</module>
+    </modules>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.0</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.nateshao.design</groupId>
+    <artifactId>nateshao-design-demo</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>nateshao-design-demo</name>
+    <description>Demo project for Spring Boot</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.nateshao.design</groupId>
+            <artifactId>4-00-prototype</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.nateshao.design</groupId>
+            <artifactId>4-00-prototype</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
+```
+
+
+
 **Hello, world of design！** 你好，设计模式的世界！
 
 ### 赞助作者买个馒头吧💚
