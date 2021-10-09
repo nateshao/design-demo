@@ -1,6 +1,6 @@
 #  Java 设计模式
 
-> **作者：** 邵桐杰，Java Developer，[:pencil2: 千羽的编程时光 · 科技栈，作者](https://nateshao.gitee.io)
+> **作者：** 邵桐杰，Java Developer，[:pencil2: 程序员千羽 · 科技栈，作者](https://nateshao.gitee.io)
 
 
 <br/>
