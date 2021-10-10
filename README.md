@@ -22,8 +22,8 @@
 
 ## 源码下载
 
-- [https://github.com/nateshao/nateshao-design-demo](https://github.com/nateshao/nateshao-design-demo)
-- [https://gitee.com/nateshao/nateshao-design-demo](https://gitee.com/nateshao/nateshao-design-demo)
+- [https://github.com/nateshao/design-demo](https://github.com/nateshao/design-demo)
+- [https://gitee.com/nateshao/design-demo](https://gitee.com/nateshao/design-demo)
 
 ## pom.xml
 
