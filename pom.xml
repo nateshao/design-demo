@@ -21,6 +21,7 @@
         <module>6-01-adapter-mode</module>
         <module>6-02-adapter-mode</module>
         <module>JavaDesignPatterns</module>
+        <module>JavaDesignPatterns/09-adapter</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
