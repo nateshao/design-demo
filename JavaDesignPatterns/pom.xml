@@ -19,6 +19,7 @@
         <module>08-singleton</module>
         <module>09-adapter</module>
         <module>10-bridge</module>
+        <module>11-composite</module>
     </modules>
 
 
