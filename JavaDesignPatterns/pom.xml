@@ -20,6 +20,7 @@
         <module>09-adapter</module>
         <module>10-bridge</module>
         <module>11-composite</module>
+        <module>12-decorator</module>
     </modules>
 
 
