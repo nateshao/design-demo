@@ -7,9 +7,8 @@ package com.nateshao.bridge;
  * @博客 https://nateshao.gitee.io
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
- * Description:
+ * Description: Unix操作系统实现类，充当具体实现类
  */
-//Unix操作系统实现类，充当具体实现类
 public class UnixImp implements ImageImp {
     public void doPaint(Matrix m) {
         //调用Unix系统的绘制函数绘制像素矩阵

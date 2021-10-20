@@ -7,9 +7,8 @@ package com.nateshao.bridge;
  * @博客 https://nateshao.gitee.io
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
- * Description:
+ * Description: GIF格式图像类，充当扩充抽象类
  */
-//GIF格式图像类，充当扩充抽象类
 public class GIFImage extends Image {
     public void parseFile(String fileName) {
         //模拟解析GIF文件并获得一个像素矩阵对象m;

@@ -7,9 +7,8 @@ package com.nateshao.bridge;
  * @博客 https://nateshao.gitee.io
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
- * Description:
+ * Description: 抽象操作系统实现类，充当实现类接口
  */
-//抽象操作系统实现类，充当实现类接口
 public interface ImageImp {
     public void doPaint(Matrix m);  //显示像素矩阵m
 }

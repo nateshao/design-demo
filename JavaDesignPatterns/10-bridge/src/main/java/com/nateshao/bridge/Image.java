@@ -7,9 +7,8 @@ package com.nateshao.bridge;
  * @博客 https://nateshao.gitee.io
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
- * Description:
+ * Description: 抽象图像类，充当抽象类
  */
-//抽象图像类，充当抽象类
 public abstract class Image {
     protected ImageImp imp;
 

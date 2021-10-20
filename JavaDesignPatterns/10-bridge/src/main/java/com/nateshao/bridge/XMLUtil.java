@@ -6,7 +6,6 @@ import org.w3c.dom.NodeList;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import java.io.File;
-
 /**
  * @date Created by 邵桐杰 on 2021/10/19 20:32
  * @微信公众号 程序员千羽
@@ -24,7 +23,7 @@ public class XMLUtil {
             DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = dFactory.newDocumentBuilder();
             Document doc;
-            doc = builder.parse(new File("src//designpatterns//bridge//config.xml"));
+            doc = builder.parse(new File("F:\\GitHub--Gitee\\design-demo\\JavaDesignPatterns\\10-bridge\\src\\main\\resources\\config.xml"));
             NodeList nl = null;
             Node classNode = null;
             String cName = null;
