@@ -21,6 +21,7 @@
         <module>10-bridge</module>
         <module>11-composite</module>
         <module>12-decorator</module>
+        <module>13-facade</module>
     </modules>
 
 
