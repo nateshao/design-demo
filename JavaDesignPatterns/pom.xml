@@ -22,6 +22,7 @@
         <module>11-composite</module>
         <module>12-decorator</module>
         <module>13-facade</module>
+        <module>14-flyweight</module>
     </modules>
 
 
