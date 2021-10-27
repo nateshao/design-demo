@@ -1,4 +1,4 @@
-package com.nateshao.adapter;
+package com.nateshao.abstractfactory;
 
 /**
  * @date Created by 邵桐杰 on 2021/10/18 23:25
