@@ -22,8 +22,6 @@
         <module>6-02-adapter-mode</module>
         <module>JavaDesignPatterns</module>
         <module>JavaDesignPatterns/09-adapter</module>
-        <module>14-flyweight</module>
-        <module>06-builder</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
