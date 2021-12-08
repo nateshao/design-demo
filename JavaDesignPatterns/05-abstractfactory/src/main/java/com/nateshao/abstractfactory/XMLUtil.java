@@ -24,7 +24,7 @@ public class XMLUtil {
             DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = dFactory.newDocumentBuilder();
             Document doc;
-            doc = builder.parse(new File("F:\\GitHub--Gitee\\design-demo\\JavaDesignPatterns\\abstractfactory\\src\\main\\resources\\config.xml"));
+            doc = builder.parse(new File("F:\\GitHub--Gitee\\design-demo\\JavaDesignPatterns\\05-abstractfactory\\src\\main\\java\\com\\nateshao\\abstractfactory\\config.xml"));
 
             //获取包含类名的文本结点
             NodeList nl = doc.getElementsByTagName("className");

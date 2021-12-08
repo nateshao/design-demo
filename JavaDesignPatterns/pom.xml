@@ -12,9 +12,9 @@
     <artifactId>JavaDesignPatterns</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>abstractfactory</module>
         <module>simplefactory</module>
         <module>factorymethod</module>
+        <module>04-factorymethod</module>
         <module>07-prototype</module>
         <module>08-singleton</module>
         <module>09-adapter</module>
@@ -25,6 +25,7 @@
         <module>14-flyweight</module>
         <module>15-proxy</module>
         <module>06-builder</module>
+        <module>05-abstractfactory</module>
     </modules>
 
 

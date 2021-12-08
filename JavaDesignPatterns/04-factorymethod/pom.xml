@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>abstractfactory</artifactId>
+    <artifactId>04-factorymethod</artifactId>
 
 
 </project>
