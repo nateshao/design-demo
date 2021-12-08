@@ -23,6 +23,12 @@ public class Client {
             System.out.println("服务器负载均衡器具有唯一性！");
         }
 
+
+        System.out.println(balancer1.hashCode());
+        System.out.println(balancer2.hashCode());
+        System.out.println(balancer3.hashCode());
+        System.out.println(balancer4.hashCode());
+        System.out.println("-----------------------------");
         //增加服务器
         balancer1.addServer("Server 1");
         balancer1.addServer("Server 2");
