@@ -9,5 +9,13 @@ package com.nateshao.adapter;
  * @Gitee https://gitee.com/nateshao
  * Description:
  */
-public class CarController {
+public abstract class CarController {
+    public void run() {
+        System.out.println();
+    }
+
+    public abstract void sou();
+
+    public abstract void two();
+
 }
