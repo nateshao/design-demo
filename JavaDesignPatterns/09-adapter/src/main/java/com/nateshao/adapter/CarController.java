@@ -1,21 +1,11 @@
 package com.nateshao.adapter;
 
-/**
- * @date Created by 邵桐杰 on 2021/12/15 15:10
- * @微信公众号 程序员千羽
- * @个人网站 www.nateshao.cn
- * @博客 https://nateshao.gitee.io
- * @GitHub https://github.com/nateshao
- * @Gitee https://gitee.com/nateshao
- * Description:
- */
+//汽车控制类，充当目标抽象类
 public abstract class CarController {
-    public void run() {
-        System.out.println();
-    }
+	public void move() {
+		System.out.println("玩具汽车移动！");
+	}
 
-    public abstract void sound();
-
-    public abstract void twinkle();
-
+	public abstract void phonate(); //发出声音
+	public abstract void twinkle(); //灯光闪烁
 }

@@ -1,13 +1,21 @@
 package com.nateshao.adapter;
+//警车适配器，充当适配器
+public class PoliceCarAdapter extends CarController {
+	private PoliceSound sound;  //定义适配者PoliceSound对象
+	private PoliceLamp lamp;   //定义适配者PoliceLamp对象
 
-/**
- * @date Created by 邵桐杰 on 2021/12/15 15:11
- * @微信公众号 程序员千羽
- * @个人网站 www.nateshao.cn
- * @博客 https://nateshao.gitee.io
- * @GitHub https://github.com/nateshao
- * @Gitee https://gitee.com/nateshao
- * Description:
- */
-public class PoliceCarAdapter {
+	public PoliceCarAdapter() {
+		sound = new PoliceSound();
+		lamp = new PoliceLamp();
+	}
+
+	//发出警笛声音
+	public void phonate() {
+		sound.alarmSound();  //调用适配者类PoliceSound的方法
+	}
+
+	//呈现警灯闪烁
+	public void twinkle() {
+		lamp.alarmLamp();   //调用适配者类PoliceLamp的方法
+	}
 }

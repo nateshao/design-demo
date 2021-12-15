@@ -1,31 +1,27 @@
+//designpatterns.adapter.XMLUtil.java
 package com.nateshao.adapter;
 
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import javax.xml.parsers.*;
 
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-import java.io.File;
+import org.w3c.dom.*;
 
-/**
- * @date Created by 邵桐杰 on 2021/10/27 14:40
- * @微信公众号 程序员千羽
- * @个人网站 www.nateshao.cn
- * @博客 https://nateshao.gitee.io
- * @GitHub https://github.com/nateshao
- * @Gitee https://gitee.com/nateshao
- * Description:
- */
+import java.io.*;
+
+import javax.xml.parsers.*;
+
+import org.w3c.dom.*;
+
+import java.io.*;
+
 public class XMLUtil {
-    //该方法用于从XML配置文、件中提取具体类类名，并返回一个实例对象
+    //该方法用于从XML配置文件中提取具体类类名，并返回一个实例对象
     public static Object getBean() {
         try {
             //创建DOM文档对象
             DocumentBuilderFactory dFactory = DocumentBuilderFactory.newInstance();
             DocumentBuilder builder = dFactory.newDocumentBuilder();
             Document doc;
-            doc = builder.parse(new File("F:\\GitHub--Gitee\\design-demo\\JavaDesignPatterns\\05-abstractfactory\\src\\main\\java\\com\\nateshao\\abstractfactory\\config.xml"));
+            doc = builder.parse(new File("src//designpatterns//adapter//config.xml"));
 
             //获取包含类名的文本结点
             NodeList nl = doc.getElementsByTagName("className");
