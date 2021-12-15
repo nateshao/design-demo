@@ -22,8 +22,6 @@ public class Client {
         if (balancer1 == balancer2 && balancer2 == balancer3 && balancer3 == balancer4) {
             System.out.println("服务器负载均衡器具有唯一性！");
         }
-
-
         System.out.println(balancer1.hashCode());
         System.out.println(balancer2.hashCode());
         System.out.println(balancer3.hashCode());
