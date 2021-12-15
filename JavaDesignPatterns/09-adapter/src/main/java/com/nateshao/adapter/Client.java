@@ -1,5 +1,6 @@
 package com.nateshao.adapter;
 
+
 /**
  * @date Created by 邵桐杰 on 2021/12/15 15:09
  * @微信公众号 程序员千羽
@@ -12,6 +13,9 @@ package com.nateshao.adapter;
 public class Client {
     public static void main(String[] args) {
         CarController car;
-
+        car = (CarController) XMLUtil.getBean();
+        car.run();
+        car.sound();
+        car.twinkle();
     }
 }

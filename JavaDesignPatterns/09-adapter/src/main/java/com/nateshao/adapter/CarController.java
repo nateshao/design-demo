@@ -14,8 +14,8 @@ public abstract class CarController {
         System.out.println();
     }
 
-    public abstract void sou();
+    public abstract void sound();
 
-    public abstract void two();
+    public abstract void twinkle();
 
 }

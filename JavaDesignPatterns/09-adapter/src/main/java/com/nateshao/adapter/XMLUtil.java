@@ -1,4 +1,4 @@
-package com.nateshao.singleton;
+package com.nateshao.adapter;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Node;
