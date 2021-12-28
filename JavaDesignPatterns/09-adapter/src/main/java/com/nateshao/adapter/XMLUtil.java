@@ -1,4 +1,3 @@
-//designpatterns.adapter.XMLUtil.java
 package com.nateshao.adapter;
 
 import javax.xml.parsers.*;
