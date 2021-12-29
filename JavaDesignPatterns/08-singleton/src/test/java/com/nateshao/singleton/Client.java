@@ -1,7 +1,7 @@
-package com.nateshao.proxy.dynamic;
+package com.nateshao.singleton;
 
 /**
- * @date Created by 邵桐杰 on 2021/10/25 23:24
+ * @date Created by 邵桐杰 on 2021/12/29 9:27
  * @微信公众号 千羽的编程时光
  * @个人网站 www.nateshao.cn
  * @博客 https://nateshao.gitee.io
@@ -9,7 +9,5 @@ package com.nateshao.proxy.dynamic;
  * @Gitee https://gitee.com/nateshao
  * Description:
  */
-//抽象UserDAO：抽象主题角色
-public interface AbstractUserDAO {
-    public Boolean findUserById(String userId);
+public class Client {
 }
