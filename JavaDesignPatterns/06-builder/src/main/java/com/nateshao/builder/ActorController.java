@@ -18,7 +18,7 @@ public class ActorController {
         ab.buildFace();
         ab.buildCostume();
         ab.buildHairstyle();
-        actor=ab.createActor();
+        actor = ab.createActor();
         return actor;
     }
 }

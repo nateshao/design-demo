@@ -7,7 +7,7 @@ package com.nateshao.builder;
  * @博客 https://nateshao.gitee.io
  * @GitHub https://github.com/nateshao
  * @Gitee https://gitee.com/nateshao
- * Description:
+ * Description: 英雄
  */
 public class HeroBuilder extends ActorBuilder {
     public void buildType() {
