@@ -33,7 +33,7 @@ public class LoadBalancer {
     }
 
     // 增加服务器
-    public void addService(String server) {
+    public void addServer(String server) {
         serverlist.add(server);
     }
 
